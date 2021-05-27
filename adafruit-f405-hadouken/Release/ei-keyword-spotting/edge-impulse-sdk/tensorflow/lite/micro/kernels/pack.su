@@ -1,0 +1,2 @@
+pack.cc:71:14:TfLiteStatus tflite::ops::micro::pack::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	56	static
+pack.cc:111:21:TfLiteRegistration* tflite::ops::micro::Register_PACK()	0	static

@@ -1,0 +1,16 @@
+logical.cc:53:6:bool tflite::ops::micro::logical::{anonymous}::LogicalOr(bool, bool)	0	static
+logical.cc:59:6:bool tflite::ops::micro::logical::{anonymous}::LogicalAnd(bool, bool)	0	static
+types.h:178:3:tflite::RuntimeShape::~RuntimeShape()	8	static
+types.h:189:16:int32 tflite::RuntimeShape::Dims(int) const	8	static
+types.h:213:15:void tflite::RuntimeShape::Resize(int)	16	static
+types.h:280:3:tflite::RuntimeShape::RuntimeShape(int, const tflite::RuntimeShape&, int)	24	static
+common.h:633:12:int tflite::SubscriptToIndex(const tflite::NdArrayDesc<4>&, int, int, int, int)	16	static
+tensor_ctypes.h:34:21:tflite::RuntimeShape tflite::GetTensorShape(const TfLiteTensor*)	16	static
+logical.cc:68:21:TfLiteRegistration* tflite::ops::micro::Register_LOGICAL_OR()	0	static
+logical.cc:82:21:TfLiteRegistration* tflite::ops::micro::Register_LOGICAL_AND()	0	static
+binary_function.h:68:13:void tflite::reference_ops::BinaryFunction(const tflite::RuntimeShape&, const T1*, const tflite::RuntimeShape&, const T2*, const tflite::RuntimeShape&, R*, R (*)(T1, T2)) [with R = bool; T1 = bool; T2 = bool]	40	static
+common.h:708:13:void tflite::CopyDimsToDesc(const tflite::RuntimeShape&, tflite::NdArrayDesc<N>*) [with int N = 4]	24	static
+binary_function.h:33:13:void tflite::reference_ops::BroadcastBinaryFunction4DSlow(const tflite::RuntimeShape&, const T1*, const tflite::RuntimeShape&, const T2*, const tflite::RuntimeShape&, R*, R (*)(T1, T2)) [with R = bool; T1 = bool; T2 = bool]	192	static
+logical.cc:32:14:TfLiteStatus tflite::ops::micro::logical::{anonymous}::LogicalImpl(TfLiteContext*, TfLiteNode*, bool (*)(bool, bool))	112	static
+logical.cc:55:14:TfLiteStatus tflite::ops::micro::logical::{anonymous}::LogicalOrEval(TfLiteContext*, TfLiteNode*)	0	static
+logical.cc:61:14:TfLiteStatus tflite::ops::micro::logical::{anonymous}::LogicalAndEval(TfLiteContext*, TfLiteNode*)	0	static

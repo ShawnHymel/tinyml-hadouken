@@ -1,0 +1,4 @@
+reshape.cc:76:14:TfLiteStatus tflite::ops::micro::reshape::Eval(TfLiteContext*, TfLiteNode*)	8	static
+reshape.cc:30:14:TfLiteStatus tflite::ops::micro::reshape::ReshapeOutput(TfLiteContext*, TfLiteNode*)	56	static
+reshape.cc:69:14:TfLiteStatus tflite::ops::micro::reshape::Prepare(TfLiteContext*, TfLiteNode*)	40	static
+reshape.cc:92:21:TfLiteRegistration* tflite::ops::micro::Register_RESHAPE()	0	static

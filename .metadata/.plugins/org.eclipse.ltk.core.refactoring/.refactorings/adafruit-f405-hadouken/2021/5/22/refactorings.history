@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;adafruit-f405-hadouken/adafruit-f405-keyword-spotting.ioc&apos; to &apos;adafruit-f405-hadouken.ioc&apos;" description="Rename resource &apos;adafruit-f405-keyword-spotting.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="adafruit-f405-keyword-spotting.ioc" name="adafruit-f405-hadouken.ioc" stamp="1622059695092" updateReferences="true"/>
+</session>

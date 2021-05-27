@@ -1,0 +1,14 @@
+fixedpoint.h:329:21:IntegerType gemmlowp::SaturatingRoundingDoublingHighMul(IntegerType, IntegerType) [with IntegerType = long int]	8	static
+types.h:178:3:tflite::RuntimeShape::~RuntimeShape()	8	static
+types.h:189:16:int32 tflite::RuntimeShape::Dims(int) const	8	static
+logistic.h:30:13:void tflite::reference_ops::Logistic(const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, float*)	48	static
+tensor_ctypes.h:34:21:tflite::RuntimeShape tflite::GetTensorShape(const TfLiteTensor*)	16	static
+logistic.cc:116:21:TfLiteRegistration* tflite::ops::micro::Register_LOGISTIC()	0	static
+fixedpoint.h:357:20:IntegerType gemmlowp::RoundingDivideByPOT(IntegerType, int) [with IntegerType = long int]	8	static
+fixedpoint.h:842:25:gemmlowp::FixedPoint<tRawType, 0> gemmlowp::one_over_one_plus_x_for_x_in_0_1(gemmlowp::FixedPoint<tRawType, 0>) [with tRawType = long int]	32	static
+fixedpoint.h:687:47:typename FixedPointType::ScalarRawType gemmlowp::RescaleConstantInitializer(int32_t) [with FixedPointType = gemmlowp::FixedPoint<long int, 0>]	8	static
+fixedpoint.h:539:55:gemmlowp::FixedPoint<tRawType, (tIntegerBits_a + tIntegerBits_b)> gemmlowp::operator*(gemmlowp::FixedPoint<tRawType, tIntegerBits_a>, gemmlowp::FixedPoint<tRawType, tIntegerBits_b>) [with tRawType = long int; int tIntegerBits_a = 0; int tIntegerBits_b = 0]	8	static
+fixedpoint.h:721:25:gemmlowp::FixedPoint<tRawType, 0> gemmlowp::exp_on_interval_between_negative_one_quarter_and_0_excl(gemmlowp::FixedPoint<tRawType, 0>) [with tRawType = long int]	24	static
+fixedpoint.h:746:25:gemmlowp::FixedPoint<tRawType, 0> gemmlowp::exp_on_negative_values(gemmlowp::FixedPoint<tRawType, tIntegerBits_a>) [with tRawType = long int; int tIntegerBits = 4]	40	static
+logistic.h:24:13:void tflite::reference_integer_ops::Logistic(int32_t, int32_t, int32_t, int32_t, int32_t, const int8_t*, int8_t*)	72	static
+logistic.cc:67:14:TfLiteStatus tflite::ops::micro::activations::LogisticEval(TfLiteContext*, TfLiteNode*)	128	static

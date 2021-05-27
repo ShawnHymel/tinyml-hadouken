@@ -1,0 +1,7 @@
+10:12:55 **** Clean-only build of configuration Release for project adafruit-f405-snes-test ****
+make -j8 clean 
+rm -rf *
+ 
+
+10:12:55 Build Finished. 0 errors, 0 warnings. (took 185ms)
+

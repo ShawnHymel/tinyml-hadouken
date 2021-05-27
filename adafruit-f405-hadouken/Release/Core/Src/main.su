@@ -1,0 +1,78 @@
+std_function.h:283:7:) [with _Res = int; _Functor = int (*)(unsigned int, unsigned int, float*); _ArgTypes = {unsigned int, unsigned int, float*}]	8	static
+std_function.h:196:2:static bool std::_Function_base::_Base_manager<_Functor>::_M_manager(std::_Any_data&, const std::_Any_data&, std::_Manager_operation) [with _Functor = int (*)(unsigned int, unsigned int, float*)]	0	static
+ei_aligned_malloc.h:55:32:void* {anonymous}::ei_aligned_malloc(size_t, size_t)	8	static
+ei_aligned_malloc.h:93:30:void {anonymous}::ei_aligned_free(void*)	8	static
+main.cpp:578:13:void audio_buffer_inference_callback(uint32_t, uint32_t)	28	static
+processing.hpp:274:20:int32_t ei::speechpy::processing::calculate_no_of_stack_frames(size_t, uint32_t, float, float, bool, uint16_t)	32	static
+std_function.h:257:5:std::_Function_base::~_Function_base()	8	static
+std_function.h:523:2:)>::operator=(_Functor&&) [with _Functor = int (*)(unsigned int, unsigned int, float*); _Res = int; _ArgTypes = {unsigned int, unsigned int, float*}]	32	static
+numpy_types.h:87:5:ei::ei_matrix::ei_matrix(uint32_t, uint32_t, float*)	16	static
+numpy_types.h:127:5:ei::ei_matrix::~ei_matrix()	8	static
+ei_run_classifier.h:198:84:void __tcf_1()	8	static
+numpy_types.h:167:5:ei::ei_matrix_i16::ei_matrix_i16(uint32_t, uint32_t, int16_t*)	16	static
+numpy_types.h:207:5:ei::ei_matrix_i16::~ei_matrix_i16()	8	static
+numpy_types.h:550:32:void std::__throw_bad_function_call()	0	static
+numpy_types.h:551:32:void std::__throw_length_error(const char*)	0	static
+numpy.hpp:511:16:static int ei::numpy::dct2(ei::matrix_t*, ei::DCT_NORMALIZATION_MODE)	48	static
+numpy.hpp:581:16:static int ei::numpy::pad_1d_symmetric(ei::matrix_t*, ei::matrix_t*, uint16_t, uint16_t)	32	static
+numpy.hpp:805:16:static int ei::numpy::subtract(ei::matrix_t*, float)	0	static
+numpy.hpp:1555:16:static int ei::numpy::rfft(const float*, size_t, ei::fft_complex_t*, size_t, size_t)	96	static
+numpy.hpp:1630:16:static int ei::numpy::rfft(const int16_t*, size_t, ei::fft_complex_i16_t*, size_t, size_t)	88	static
+numpy.hpp:1716:16:static int ei::numpy::linspace(float, float, uint32_t, float*)	8	static
+numpy.hpp:1999:16:static int ei::numpy::log(ei::matrix_t*)	20	static
+numpy.hpp:2035:16:static int ei::numpy::normalize(ei::matrix_t*)	88	static
+numpy.hpp:2076:16:static int ei::numpy::software_rfft(float*, float*, size_t, size_t)	72	static
+numpy.hpp:1336:16:static int ei::numpy::rfft(const float*, size_t, float*, size_t, size_t)	96	static
+processing.hpp:320:16:int ei::speechpy::processing::power_spectrum(float*, size_t, float*, size_t, uint16_t)	32	static
+numpy.hpp:2148:17:static void ei::numpy::cmsis_arm_variance(const float32_t*, uint32_t, float32_t*)	16	static
+numpy.hpp:2218:16:static int ei::numpy::std_axis0_CMSIS(ei::matrix_t*, ei::matrix_t*)	48	static
+processing.hpp:352:16:int ei::speechpy::processing::cmvnw(ei::matrix_t*, uint16_t, bool, bool)	120	static
+processing.hpp:602:9:int ei::spectral::processing::spectral_power_edges(ei::matrix_t*, ei::matrix_t*, ei::matrix_t*, ei::matrix_t*, float)	80	static
+processing.hpp:655:9:int ei::spectral::processing::spectral_power_edges(ei::matrix_i16_t*, ei::matrix_i16_t*, ei::matrix_i16_t*, ei::matrix_i16_t*, float)	80	static
+processing.hpp:727:9:int ei::spectral::processing::periodogram(ei::matrix_t*, ei::matrix_t*, ei::matrix_t*, float, uint16_t)	112	static
+processing.hpp:819:9:int ei::spectral::processing::periodogram(ei::matrix_i16_t*, ei::matrix_i16_t*, ei::matrix_i16_t*, float, uint16_t)	120	static
+functions.hpp:41:18:static float ei::speechpy::functions::frequency_to_mel(float)	0	static
+functions.hpp:76:17:static void ei::speechpy::functions::zero_handling(ei::matrix_t*)	0	static
+functions.hpp:89:16:static int ei::speechpy::functions::triangle(float*, size_t, int, int, int)	40	static
+processing.hpp:38:5:ei::speechpy::ei_stack_frames_info::~ei_stack_frames_info()	16	static
+processing.hpp:124:9:ei::speechpy::processing::preemphasis::~preemphasis()	8	static
+feature.hpp:53:16:static int ei::speechpy::feature::filterbanks(ei::matrix_t*, uint16_t, int, uint32_t, uint32_t, uint32_t, bool)	104	static
+ei_classifier_smooth.h:51:6:void ei_classifier_smooth_init(ei_classifier_smooth_t*, size_t, uint8_t, float, float)	32	static
+ei_classifier_smooth.h:71:13:const char* ei_classifier_smooth_update(ei_classifier_smooth_t*, ei_impulse_result_t*)	48	static
+ei_classifier_smooth.h:140:6:void ei_classifier_smooth_free(ei_classifier_smooth_t*)	0	static
+ei_run_classifier.h:140:18:float {anonymous}::run_moving_average_filter(ei_impulse_maf*, float)	0	static
+ei_run_classifier.h:174:17:void {anonymous}::run_classifier_init()	0	static
+main.cpp:287:6:void SystemClock_Config()	112	static,ignoring_inline_asm
+main.cpp:534:6:bool ei_microphone_inference_record()	0	static
+main.cpp:559:6:bool ei_microphone_inference_end()	8	static
+main.cpp:607:6:void vprint(const char*, va_list)	208	static
+main.cpp:619:6:)	16	static
+ei_run_classifier.h:427:25:EI_IMPULSE_ERROR {anonymous}::inference_tflite_setup(uint64_t*, TfLiteTensor**, TfLiteTensor**, uint8_t**)	24	static
+ei_run_classifier.h:558:25:EI_IMPULSE_ERROR {anonymous}::inference_tflite_run(uint64_t, TfLiteTensor*, uint8_t*, ei_impulse_result_t*, bool)	48	static
+ei_run_classifier.h:627:29:EI_IMPULSE_ERROR {anonymous}::run_inference(ei::matrix_t*, ei_impulse_result_t*, bool)	56	static
+ei_run_classifier.h:938:29:EI_IMPULSE_ERROR {anonymous}::run_inference_i16(ei::matrix_i32_t*, ei_impulse_result_t*, bool)	64	static
+ei_run_classifier.h:195:29:EI_IMPULSE_ERROR {anonymous}::run_classifier_continuous(ei::signal_t*, ei_impulse_result_t*, bool, bool)	72	static
+main.cpp:114:5:int main()	64	static,ignoring_inline_asm
+main.cpp:630:6:void HAL_I2S_RxHalfCpltCallback(I2S_HandleTypeDef*)	0	static
+main.cpp:641:6:void HAL_I2S_RxCpltCallback(I2S_HandleTypeDef*)	0	static
+main.cpp:655:6:void Error_Handler()	0	static,ignoring_inline_asm
+std_function.h:683:5:) const [with _Res = int; _ArgTypes = {unsigned int, unsigned int, float*}]	24	static
+processing.hpp:77:13:int ei::speechpy::processing::preemphasis::get_data(size_t, size_t, float*)	72	static
+ei_run_dsp.h:387:12:int {anonymous}::preemphasized_audio_signal_get_data(size_t, size_t, float*)	8	static
+ei_run_dsp.h:452:12:int {anonymous}::preemphasized_audio_signal_get_and_align_data(size_t, size_t, float*)	24	static
+processing.hpp:54:9:ei::speechpy::processing::preemphasis::preemphasis(ei::ei_signal_t*, int, float)	24	static
+ei_run_dsp.h:790:29:int {anonymous}::extract_image_features(ei::signal_t*, ei::matrix_t*, void*, float)	64	static
+ei_run_classifier.h:1295:29:EI_IMPULSE_ERROR {anonymous}::run_classifier_image_quantized(ei::signal_t*, ei_impulse_result_t*, bool)	32	static
+ei_run_classifier.h:1051:29:EI_IMPULSE_ERROR {anonymous}::run_classifier(ei::signal_t*, ei_impulse_result_t*, bool)	64	static
+stl_vector.h:1067:7:void std::vector<_Tp, _Alloc>::_M_range_check(std::vector<_Tp, _Alloc>::size_type) const [with _Tp = long unsigned int; _Alloc = std::allocator<long unsigned int>]	8	static
+vector.tcc:426:7:) [with _Args = {long unsigned int}; _Tp = long unsigned int; _Alloc = std::allocator<long unsigned int>]	40	static
+processing.hpp:196:16:int ei::speechpy::processing::stack_frames(ei::speechpy::stack_frames_info_t*, uint32_t, float, float, bool, uint16_t)	48	static
+feature.hpp:338:16:static int ei::speechpy::feature::spectrogram(ei::matrix_t*, ei::signal_t*, uint32_t, float, float, uint16_t, uint16_t)	88	static
+ei_run_dsp.h:612:29:int {anonymous}::extract_spectrogram_per_slice_features(ei::signal_t*, ei::matrix_t*, void*, float)	72	static
+ei_run_dsp.h:564:29:int {anonymous}::extract_spectrogram_features(ei::signal_t*, ei::matrix_t*, void*, float)	72	static
+feature.hpp:192:16:static int ei::speechpy::feature::mfe(ei::matrix_t*, ei::matrix_t*, ei::signal_t*, uint32_t, float, float, uint16_t, uint16_t, uint32_t, uint32_t, uint16_t)	152	static
+feature.hpp:466:16:static int ei::speechpy::feature::mfcc(ei::matrix_t*, ei::signal_t*, uint32_t, float, float, uint8_t, uint16_t, uint16_t, uint32_t, uint32_t, bool, uint16_t)	112	static
+ei_run_dsp.h:391:29:int {anonymous}::extract_mfcc_features(ei::signal_t*, ei::matrix_t*, void*, float)	144	static
+ei_run_dsp.h:467:29:int {anonymous}::extract_mfcc_per_slice_features(ei::signal_t*, ei::matrix_t*, void*, float)	136	static
+ei_run_dsp.h:726:29:int {anonymous}::extract_mfe_per_slice_features(ei::signal_t*, ei::matrix_t*, void*, float)	96	static
+ei_run_dsp.h:675:29:int {anonymous}::extract_mfe_features(ei::signal_t*, ei::matrix_t*, void*, float)	104	static

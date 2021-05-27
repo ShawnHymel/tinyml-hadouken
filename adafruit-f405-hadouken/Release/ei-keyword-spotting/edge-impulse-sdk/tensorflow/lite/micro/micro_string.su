@@ -1,0 +1,4 @@
+micro_string.cc:56:7:char* {anonymous}::StrCatStr(char*, int, const char*)	12	static
+micro_string.cc:72:7:char* {anonymous}::FastUInt32ToBufferLeft(uint32_t, char*, int)	16	static
+micro_string.cc:190:16:int MicroVsnprintf(char*, int, const char*, va_list)	120	static
+micro_string.cc:259:16:)	16	static

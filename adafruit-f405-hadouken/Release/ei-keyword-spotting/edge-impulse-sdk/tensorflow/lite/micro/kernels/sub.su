@@ -1,0 +1,26 @@
+types.h:178:3:tflite::RuntimeShape::~RuntimeShape()	8	static
+types.h:189:16:int32 tflite::RuntimeShape::Dims(int) const	8	static
+types.h:194:15:void tflite::RuntimeShape::SetDim(int, int32)	8	static
+types.h:213:15:void tflite::RuntimeShape::Resize(int)	16	static
+types.h:265:14:int tflite::RuntimeShape::FlatSize() const	8	static
+types.h:280:3:tflite::RuntimeShape::RuntimeShape(int, const tflite::RuntimeShape&, int)	24	static
+types.h:468:12:int tflite::MatchingElementsSize(const tflite::RuntimeShape&, const tflite::RuntimeShape&, const tflite::RuntimeShape&)	16	static
+common.h:138:14:int32 tflite::MultiplyByQuantizedMultiplierSmallerThanOneExp(int32, int32, int)	16	static
+common.h:643:12:int tflite::SubscriptToIndex(const tflite::NdArrayDesc<5>&, int*)	12	static
+sub.h:367:13:void tflite::reference_ops::Sub(const tflite::ArithmeticParams&, const tflite::RuntimeShape&, const uint8*, const tflite::RuntimeShape&, const uint8*, const tflite::RuntimeShape&, uint8*)	40	static
+sub.h:383:13:void tflite::reference_ops::Sub(const tflite::ArithmeticParams&, const tflite::RuntimeShape&, const int8_t*, const tflite::RuntimeShape&, const int8_t*, const tflite::RuntimeShape&, int8_t*)	40	static
+process_broadcast_shapes.h:38:13:bool tflite::reference_ops::ProcessBroadcastShapes(const tflite::RuntimeShape&, const tflite::RuntimeShape&, tflite::ArithmeticParams*)	96	static
+tensor_ctypes.h:34:21:tflite::RuntimeShape tflite::GetTensorShape(const TfLiteTensor*)	16	static
+sub.cc:57:14:TfLiteStatus tflite::ops::micro::sub::CalculateOpData(TfLiteContext*, TfLiteSubParams*, const TfLiteTensor*, const TfLiteTensor*, TfLiteTensor*, tflite::ops::micro::sub::OpData*)	56	static
+sub.cc:187:21:TfLiteRegistration* tflite::ops::micro::Register_SUB()	0	static
+sub.h:236:19:tflite::reference_ops::BroadcastSubSlow(const tflite::ArithmeticParams&, const tflite::RuntimeShape&, const int8_t*, const tflite::RuntimeShape&, const int8_t*, const tflite::RuntimeShape&, int8_t*) [with int N = 5]::<lambda(int*)>	24	static
+sub.h:142:19:tflite::reference_ops::BroadcastSubSlow(const tflite::ArithmeticParams&, const tflite::RuntimeShape&, const uint8*, const tflite::RuntimeShape&, const uint8*, const tflite::RuntimeShape&, uint8*) [with int N = 5]::<lambda(int*)>	24	static
+common.h:708:13:void tflite::CopyDimsToDesc(const tflite::RuntimeShape&, tflite::NdArrayDesc<N>*) [with int N = 5]	24	static
+common.h:719:13:void tflite::NdArrayDescsForElementwiseBroadcast(const tflite::RuntimeShape&, const tflite::RuntimeShape&, tflite::NdArrayDesc<N>*, tflite::NdArrayDesc<N>*) [with int N = 5]	80	static
+sub.h:210:13:void tflite::reference_ops::BroadcastSubSlow(const tflite::ArithmeticParams&, const tflite::RuntimeShape&, const int8_t*, const tflite::RuntimeShape&, const int8_t*, const tflite::RuntimeShape&, int8_t*) [with int N = 5]	200	static
+sub.h:113:13:void tflite::reference_ops::BroadcastSubSlow(const tflite::ArithmeticParams&, const tflite::RuntimeShape&, const uint8*, const tflite::RuntimeShape&, const uint8*, const tflite::RuntimeShape&, uint8*) [with int N = 5]	200	static
+sub.cc:116:14:TfLiteStatus tflite::ops::micro::sub::EvalSubQuantized(TfLiteContext*, TfLiteNode*, TfLiteSubParams*, const tflite::ops::micro::sub::OpData*, const TfLiteTensor*, const TfLiteTensor*, TfLiteTensor*)	192	static
+sub.cc:116:14:TfLiteStatus tflite::ops::micro::sub::EvalSubQuantized(TfLiteContext*, TfLiteNode*, TfLiteSubParams*, const tflite::ops::micro::sub::OpData*, const TfLiteTensor*, const TfLiteTensor*, TfLiteTensor*)	8	static
+common.h:815:51:typename std::enable_if<(DIM != (N - 1)), void>::type tflite::NDOpsHelperImpl(const tflite::NdArrayDesc<N>&, const Calc&, int*) [with int N = 5; int DIM = 3; Calc = tflite::reference_ops::BroadcastSubSlow(const tflite::ArithmeticParams&, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, float*) [with int N = 5]::<lambda(int*)>]	48	static
+sub.cc:96:6:void tflite::ops::micro::sub::EvalSub(TfLiteContext*, TfLiteNode*, TfLiteSubParams*, const tflite::ops::micro::sub::OpData*, const TfLiteTensor*, const TfLiteTensor*, TfLiteTensor*)	368	static
+sub.cc:160:14:TfLiteStatus tflite::ops::micro::sub::Eval(TfLiteContext*, TfLiteNode*)	120	static

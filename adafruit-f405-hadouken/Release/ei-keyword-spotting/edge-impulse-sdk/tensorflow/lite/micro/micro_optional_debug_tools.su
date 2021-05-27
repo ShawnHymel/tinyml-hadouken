@@ -1,0 +1,7 @@
+micro_optional_debug_tools.cc:48:6:void tflite::{anonymous}::PrintIntVector(const std::vector<int>&)	16	static
+micro_optional_debug_tools.cc:55:6:void tflite::{anonymous}::PrintTfLiteIntVector(const TfLiteIntArray*)	24	static
+flatbuffers.h:2424:13:flatbuffers::voffset_t flatbuffers::Table::GetOptionalFieldOffset(flatbuffers::voffset_t) const	0	static
+micro_optional_debug_tools.cc:117:6:void tflite::PrintModelData(const tflite::Model*, tflite::ErrorReporter*)	56	static
+vector.tcc:426:7:) [with _Args = {int}; _Tp = int; _Alloc = std::allocator<int>]	40	static
+micro_optional_debug_tools.cc:38:18:std::vector<int> tflite::{anonymous}::flatbuffersVector2StdVector(const flatbuffers::Vector<long int>&)	32	static
+micro_optional_debug_tools.cc:143:6:void tflite::PrintInterpreterState(tflite::MicroInterpreter*)	80	static

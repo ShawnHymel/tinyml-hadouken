@@ -1,0 +1,2 @@
+arm_quick_sort_f32.c:104:13:arm_quick_sort_core_f32	24	static
+arm_quick_sort_f32.c:158:6:arm_quick_sort_f32	16	static

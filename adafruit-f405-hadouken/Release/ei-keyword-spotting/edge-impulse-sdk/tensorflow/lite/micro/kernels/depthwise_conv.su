@@ -1,0 +1,13 @@
+depthwise_conv.cc:106:7:void* tflite::ops::micro::depthwise_conv::Init(TfLiteContext*, const char*, size_t)	16	static
+types.h:178:3:tflite::RuntimeShape::~RuntimeShape()	8	static
+types.h:189:16:int32 tflite::RuntimeShape::Dims(int) const	8	static
+types.h:265:14:int tflite::RuntimeShape::FlatSize() const	8	static
+types.h:379:12:int tflite::Offset(const tflite::RuntimeShape&, int, int, int, int)	16	static
+types.h:432:12:int tflite::MatchingDim(const tflite::RuntimeShape&, int, const tflite::RuntimeShape&, int)	16	static
+depthwiseconv_float.h:25:13:void tflite::reference_ops::DepthwiseConv(const tflite::DepthwiseParams&, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, float*)	160	static
+tensor_ctypes.h:34:21:tflite::RuntimeShape tflite::GetTensorShape(const TfLiteTensor*)	16	static
+depthwise_conv.cc:112:14:TfLiteStatus tflite::ops::micro::depthwise_conv::Prepare(TfLiteContext*, TfLiteNode*)	72	static
+padding.h:44:12:int tflite::ComputeOutSize(TfLitePadding, int, int, int, int)	0	static
+depthwise_conv.cc:405:21:TfLiteRegistration* tflite::ops::micro::Register_DEPTHWISE_CONV_2D()	0	static
+depthwiseconv_uint8.h:92:22:static void tflite::reference_ops::depthwise_conv::DepthwiseConvBasicKernel<output_rounding>::Run(const tflite::DepthwiseParams&, const tflite::RuntimeShape&, const uint8*, const tflite::RuntimeShape&, const uint8*, const tflite::RuntimeShape&, const int32*, const tflite::RuntimeShape&, uint8*) [with tflite::DepthwiseConvOutputRounding output_rounding = tflite::DepthwiseConvOutputRounding::kAwayFromZero]	200	static
+depthwise_conv.cc:340:14:TfLiteStatus tflite::ops::micro::depthwise_conv::Eval(TfLiteContext*, TfLiteNode*)	384	static

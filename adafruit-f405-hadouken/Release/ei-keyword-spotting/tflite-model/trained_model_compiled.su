@@ -1,0 +1,11 @@
+trained_model_compiled.cpp:325:14:void* {anonymous}::GetScratchBuffer(TfLiteContext*, int)	0	static
+trained_model_compiled.cpp:333:16:TfLiteStatus trained_model_init(void* (*)(size_t, size_t))	40	static
+trained_model_compiled.cpp:419:15:TfLiteTensor* trained_model_input(int)	0	static
+trained_model_compiled.cpp:426:15:TfLiteTensor* trained_model_output(int)	0	static
+trained_model_compiled.cpp:430:14:TfLiteStatus trained_model_invoke()	24	static
+trained_model_compiled.cpp:500:14:TfLiteStatus trained_model_reset(void (*)(void*))	16	static
+vector.tcc:426:7:) [with _Args = {void* const&}; _Tp = void*; _Alloc = std::allocator<void*>]	40	static
+trained_model_compiled.cpp:283:21:TfLiteStatus {anonymous}::AllocatePersistentBuffer(TfLiteContext*, size_t, void**)	16	static
+trained_model_compiled.cpp:308:21:TfLiteStatus {anonymous}::RequestScratchBufferInArena(TfLiteContext*, size_t, int*)	48	static
+trained_model_compiled.cpp:510:1:cpp)	0	static
+trained_model_compiled.cpp:510:1:cpp)	8	static

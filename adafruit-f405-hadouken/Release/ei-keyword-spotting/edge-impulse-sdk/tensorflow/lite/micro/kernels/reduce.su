@@ -1,0 +1,12 @@
+types.h:178:3:tflite::RuntimeShape::~RuntimeShape()	8	static
+types.h:189:16:int32 tflite::RuntimeShape::Dims(int) const	8	static
+types.h:213:15:void tflite::RuntimeShape::Resize(int)	16	static
+types.h:280:3:tflite::RuntimeShape::RuntimeShape(int, const tflite::RuntimeShape&, int)	24	static
+types.h:379:12:int tflite::Offset(const tflite::RuntimeShape&, int, int, int, int)	16	static
+tensor_ctypes.h:34:21:tflite::RuntimeShape tflite::GetTensorShape(const TfLiteTensor*)	16	static
+reduce.cc:33:14:TfLiteStatus tflite::ops::micro::reduce::PrepareSimple(TfLiteContext*, TfLiteNode*)	40	static
+reduce.cc:51:14:TfLiteStatus tflite::ops::micro::reduce::PrepareMeanOrSum(TfLiteContext*, TfLiteNode*)	0	static
+reduce.cc:57:6:void tflite::ops::micro::reduce::ResolveAxis(const int*, int, tflite::MeanParams*)	16	static
+reduce.cc:122:21:TfLiteRegistration* tflite::ops::micro::Register_MEAN()	0	static
+reduce.h:209:13:void tflite::reference_ops::Mean(const tflite::MeanParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with T = float]	112	static
+reduce.cc:69:14:TfLiteStatus tflite::ops::micro::reduce::EvalMean(TfLiteContext*, TfLiteNode*)	136	static

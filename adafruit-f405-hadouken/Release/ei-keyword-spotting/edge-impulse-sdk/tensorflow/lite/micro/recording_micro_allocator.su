@@ -1,0 +1,15 @@
+recording_micro_allocator.h:53:7:tflite::RecordingMicroAllocator::~RecordingMicroAllocator()	8	static
+recording_micro_allocator.h:53:7:virtual tflite::RecordingMicroAllocator::~RecordingMicroAllocator()	8	static
+recording_micro_allocator.cc:25:1:tflite::RecordingMicroAllocator::RecordingMicroAllocator(tflite::RecordingSimpleMemoryAllocator*, tflite::ErrorReporter*)	16	static
+recording_micro_allocator.cc:31:26:static tflite::RecordingMicroAllocator* tflite::RecordingMicroAllocator::Create(uint8_t*, size_t, tflite::ErrorReporter*)	16	static
+recording_micro_allocator.cc:47:20:tflite::RecordedAllocation tflite::RecordingMicroAllocator::GetRecordedAllocation(tflite::RecordedAllocationType) const	16	static
+recording_micro_allocator.cc:67:1:const tflite::RecordingSimpleMemoryAllocator* tflite::RecordingMicroAllocator::GetSimpleMemoryAllocator() const	0	static
+recording_micro_allocator.cc:99:6:void tflite::RecordingMicroAllocator::PrintRecordedAllocation(tflite::RecordedAllocationType, const char*, const char*) const	48	static
+recording_micro_allocator.cc:71:6:void tflite::RecordingMicroAllocator::PrintAllocations() const	16	static
+recording_micro_allocator.cc:172:6:void tflite::RecordingMicroAllocator::SnapshotAllocationUsage(tflite::RecordedAllocation&)	16	static
+recording_micro_allocator.cc:180:6:void tflite::RecordingMicroAllocator::RecordAllocationUsage(tflite::RecordedAllocation&)	16	static
+recording_micro_allocator.cc:111:14:virtual TfLiteStatus tflite::RecordingMicroAllocator::AllocateTfLiteTensorArray(TfLiteContext*, const tflite::SubGraph*)	32	static
+recording_micro_allocator.cc:123:14:virtual TfLiteStatus tflite::RecordingMicroAllocator::PopulateTfLiteTensorArrayFromFlatbuffer(const tflite::Model*, TfLiteContext*, const tflite::SubGraph*)	24	static
+recording_micro_allocator.cc:134:14:virtual TfLiteStatus tflite::RecordingMicroAllocator::AllocateNodeAndRegistrations(const tflite::SubGraph*, tflite::NodeAndRegistration**)	32	static
+recording_micro_allocator.cc:148:1:virtual TfLiteStatus tflite::RecordingMicroAllocator::PrepareNodeAndRegistrationDataFromFlatbuffer(const tflite::Model*, const tflite::SubGraph*, const tflite::MicroOpResolver&, tflite::NodeAndRegistration*)	32	static
+recording_micro_allocator.cc:162:14:virtual TfLiteStatus tflite::RecordingMicroAllocator::AllocateVariables(TfLiteContext*, const tflite::SubGraph*)	24	static

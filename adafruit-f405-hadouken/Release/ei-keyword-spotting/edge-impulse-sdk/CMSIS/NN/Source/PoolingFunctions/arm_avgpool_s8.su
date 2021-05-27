@@ -1,0 +1,2 @@
+arm_avgpool_s8.c:234:12:arm_avgpool_s8	112	static
+arm_avgpool_s8.c:337:9:arm_avgpool_s8_get_buffer_size	0	static

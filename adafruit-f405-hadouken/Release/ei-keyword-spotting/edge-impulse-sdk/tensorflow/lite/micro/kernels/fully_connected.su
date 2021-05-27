@@ -1,0 +1,11 @@
+fully_connected.cc:80:7:void* tflite::ops::micro::fully_connected::Init(TfLiteContext*, const char*, size_t)	16	static
+types.h:178:3:tflite::RuntimeShape::~RuntimeShape()	8	static
+types.h:189:16:int32 tflite::RuntimeShape::Dims(int) const	8	static
+types.h:432:12:int tflite::MatchingDim(const tflite::RuntimeShape&, int, const tflite::RuntimeShape&, int)	16	static
+types.h:635:12:int tflite::FlatSizeSkipDim(const tflite::RuntimeShape&, int)	16	static
+common.h:153:14:int32 tflite::MultiplyByQuantizedMultiplier(int32, int32, int)	16	static
+fully_connected.h:62:13:void tflite::reference_ops::FullyConnected(const tflite::FullyConnectedParams&, const tflite::RuntimeShape&, const uint8*, const tflite::RuntimeShape&, const uint8*, const tflite::RuntimeShape&, const int32*, const tflite::RuntimeShape&, uint8*)	80	static
+tensor_ctypes.h:34:21:tflite::RuntimeShape tflite::GetTensorShape(const TfLiteTensor*)	16	static
+fully_connected.cc:86:14:TfLiteStatus tflite::ops::micro::fully_connected::Prepare(TfLiteContext*, TfLiteNode*)	64	static
+fully_connected.cc:220:14:TfLiteStatus tflite::ops::micro::fully_connected::Eval(TfLiteContext*, TfLiteNode*)	272	static
+fully_connected.cc:257:21:TfLiteRegistration* tflite::ops::micro::Register_FULLY_CONNECTED()	0	static

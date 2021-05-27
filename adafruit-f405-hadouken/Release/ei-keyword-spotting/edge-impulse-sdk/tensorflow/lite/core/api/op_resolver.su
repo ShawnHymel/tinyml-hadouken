@@ -1,0 +1,2 @@
+flatbuffers.h:2424:13:flatbuffers::voffset_t flatbuffers::Table::GetOptionalFieldOffset(flatbuffers::voffset_t) const	0	static
+op_resolver.cc:24:14:TfLiteStatus tflite::GetRegistrationFromOpCode(const tflite::OperatorCode*, const tflite::OpResolver&, tflite::ErrorReporter*, const TfLiteRegistration**)	32	static

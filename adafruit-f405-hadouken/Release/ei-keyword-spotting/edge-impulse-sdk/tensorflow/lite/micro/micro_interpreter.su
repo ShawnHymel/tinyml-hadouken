@@ -1,0 +1,21 @@
+micro_interpreter.cc:33:13:const char* tflite::{anonymous}::OpNameFromRegistration(const TfLiteRegistration*)	0	static
+micro_interpreter.cc:45:14:static TfLiteStatus tflite::internal::ContextHelper::AllocatePersistentBuffer(TfLiteContext*, size_t, void**)	0	static
+micro_interpreter.cc:51:14:static TfLiteStatus tflite::internal::ContextHelper::RequestScratchBufferInArena(TfLiteContext*, size_t, int*)	0	static
+micro_interpreter.cc:59:7:static void* tflite::internal::ContextHelper::GetScratchBuffer(TfLiteContext*, int)	0	static
+micro_interpreter.cc:64:6:)	12	static
+flatbuffers.h:2424:13:flatbuffers::voffset_t flatbuffers::Table::GetOptionalFieldOffset(flatbuffers::voffset_t) const	0	static
+profiler.h:114:3:tflite::ScopedProfile::~ScopedProfile()	8	static
+micro_interpreter.cc:123:6:void tflite::MicroInterpreter::Init(tflite::Profiler*)	16	static
+micro_interpreter.cc:75:1:tflite::MicroInterpreter::MicroInterpreter(const tflite::Model*, const tflite::MicroOpResolver&, uint8_t*, size_t, tflite::ErrorReporter*, tflite::Profiler*)	16	static
+micro_interpreter.cc:92:1:tflite::MicroInterpreter::MicroInterpreter(const tflite::Model*, const tflite::MicroOpResolver&, tflite::MicroAllocator*, tflite::ErrorReporter*, tflite::Profiler*)	16	static
+micro_interpreter.cc:142:6:void tflite::MicroInterpreter::CorrectTensorEndianness(TfLiteTensor*)	0	static
+micro_interpreter.cc:324:15:TfLiteTensor* tflite::MicroInterpreter::tensor(size_t)	8	static
+micro_interpreter.cc:335:14:TfLiteStatus tflite::MicroInterpreter::ResetVariableTensors()	24	static
+flatbuffers.h:256:15:flatbuffers::Vector<T>::return_type flatbuffers::Vector<T>::Get(flatbuffers::uoffset_t) const [with T = long int]	8	static
+flatbuffers.h:2439:26:P flatbuffers::Table::GetPointer(flatbuffers::voffset_t) [with P = const flatbuffers::Vector<long int>*]	8	static
+micro_interpreter.cc:302:15:TfLiteTensor* tflite::MicroInterpreter::input(size_t)	16	static
+micro_interpreter.cc:313:15:TfLiteTensor* tflite::MicroInterpreter::output(size_t)	16	static
+flatbuffers.h:2439:26:P flatbuffers::Table::GetPointer(flatbuffers::voffset_t) [with P = const flatbuffers::Vector<flatbuffers::Offset<tflite::Operator> >*]	8	static
+micro_interpreter.cc:108:1:tflite::MicroInterpreter::~MicroInterpreter()	24	static
+micro_interpreter.cc:179:14:TfLiteStatus tflite::MicroInterpreter::AllocateTensors()	32	static
+micro_interpreter.cc:260:14:TfLiteStatus tflite::MicroInterpreter::Invoke()	64	static

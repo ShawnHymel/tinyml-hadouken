@@ -1,0 +1,28 @@
+tflite_detection_postprocess.cc:169:6:void tflite::{anonymous}::Free(TfLiteContext*, void*)	0	static
+tflite_detection_postprocess.cc:173:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	64	static
+flexbuffers.h:836:26:int flexbuffers::KeyCompare(const void*, const void*) [with T = long long unsigned int]	0	static
+flexbuffers.h:836:26:int flexbuffers::KeyCompare(const void*, const void*) [with T = unsigned char]	0	static
+flexbuffers.h:836:26:int flexbuffers::KeyCompare(const void*, const void*) [with T = short unsigned int]	0	static
+flexbuffers.h:836:26:int flexbuffers::KeyCompare(const void*, const void*) [with T = long unsigned int]	0	static
+stl_heap.h:214:5:void std::__adjust_heap(_RandomAccessIterator, _Distance, _Distance, _Tp, _Compare) [with _RandomAccessIterator = int*; _Distance = int; _Tp = int; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<tflite::{anonymous}::DecreasingPartialArgSort(const float*, int, int, int*)::<lambda(int, int)> >]	28	static
+tflite_detection_postprocess.cc:369:6:void tflite::{anonymous}::DecreasingPartialArgSort(const float*, int, int, int*)	40	static
+tflite_detection_postprocess.cc:425:14:TfLiteStatus tflite::{anonymous}::NonMaxSuppressionSingleClassHelper(TfLiteContext*, TfLiteNode*, tflite::{anonymous}::OpData*, const float*, int*, int*, int)	64	static
+tflite_detection_postprocess.cc:258:6:void tflite::{anonymous}::DequantizeBoxEncodings(const TfLiteTensor*, int, float, float, int, tflite::{anonymous}::CenterSizeEncoding*)	0	static
+tflite_detection_postprocess.cc:797:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	192	static
+util.h:54:13:bool flatbuffers::is_alpha_char(char, char)	8	static
+tflite_detection_postprocess.cc:822:21:TfLiteRegistration* tflite::Register_DETECTION_POSTPROCESS()	0	static
+tflite_detection_postprocess.cc:836:21:TfLiteRegistration* tflite::ops::micro::Register_TFLite_Detection_PostProcess()	0	static
+util.h:282:13:bool flatbuffers::StringToIntegerImpl(T*, const char*, int, bool) [with T = long long int]	32	static
+util.h:282:13:bool flatbuffers::StringToIntegerImpl(T*, const char*, int, bool) [with T = long long unsigned int]	32	static
+flexbuffers.h:136:3:R flexbuffers::ReadSizedScalar(const uint8_t*, uint8_t) [with R = long long int; T1 = signed char; T2 = short int; T4 = long int; T8 = long long int]	0	static
+flexbuffers.h:136:3:R flexbuffers::ReadSizedScalar(const uint8_t*, uint8_t) [with R = long long unsigned int; T1 = unsigned char; T2 = short unsigned int; T4 = long unsigned int; T8 = long long unsigned int]	0	static
+flexbuffers.h:228:10:size_t flexbuffers::Sized::read_size() const	8	static
+flexbuffers.h:843:18:flexbuffers::Reference flexbuffers::Map::operator[](const char*) const	56	static
+flexbuffers.h:732:18:const uint8_t* flexbuffers::Reference::Indirect() const	8	static
+flexbuffers.h:608:10:flexbuffers::Vector flexbuffers::Reference::AsVector() const	16	static
+flexbuffers.h:521:10:flexbuffers::String flexbuffers::Reference::AsString() const	16	static
+flexbuffers.h:136:3:R flexbuffers::ReadSizedScalar(const uint8_t*, uint8_t) [with R = double; T1 = signed char; T2 = short int; T4 = float; T8 = double]	8	static
+flexbuffers.h:452:12:uint64_t flexbuffers::Reference::AsUInt64() const	32	static
+flexbuffers.h:423:11:int64_t flexbuffers::Reference::AsInt64() const	32	static
+flexbuffers.h:479:10:double flexbuffers::Reference::AsDouble() const	24	static
+tflite_detection_postprocess.cc:129:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	40	static

@@ -1,0 +1,2 @@
+arm_max_pool_s8_opt.c:36:13:compare_and_replace_if_larger_q7	24	static
+arm_max_pool_s8_opt.c:205:12:arm_max_pool_s8_opt	104	static

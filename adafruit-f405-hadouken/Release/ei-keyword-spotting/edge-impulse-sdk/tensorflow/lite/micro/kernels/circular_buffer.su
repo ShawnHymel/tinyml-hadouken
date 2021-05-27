@@ -1,0 +1,5 @@
+circular_buffer.cc:77:6:void tflite::ops::micro::circular_buffer::Free(TfLiteContext*, void*)	0	static
+circular_buffer.cc:79:14:TfLiteStatus tflite::ops::micro::circular_buffer::Prepare(TfLiteContext*, TfLiteNode*)	48	static
+circular_buffer.cc:118:6:void tflite::ops::micro::circular_buffer::EvalInt8(const int8_t*, int, int, int8_t*)	16	static
+circular_buffer.cc:123:14:TfLiteStatus tflite::ops::micro::circular_buffer::Eval(TfLiteContext*, TfLiteNode*)	24	static
+circular_buffer.cc:161:21:TfLiteRegistration* tflite::ops::micro::Register_CIRCULAR_BUFFER()	0	static

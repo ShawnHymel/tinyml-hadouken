@@ -1,0 +1,17 @@
+types.h:178:3:tflite::RuntimeShape::~RuntimeShape()	8	static
+types.h:189:16:int32 tflite::RuntimeShape::Dims(int) const	8	static
+types.h:213:15:void tflite::RuntimeShape::Resize(int)	16	static
+types.h:280:3:tflite::RuntimeShape::RuntimeShape(int, const tflite::RuntimeShape&, int)	24	static
+strided_slice_logic.h:35:13:void tflite::strided_slice::StridedSlicePadIndices(tflite::StridedSliceParams*, int)	16	static
+strided_slice_logic.h:74:12:int tflite::strided_slice::StartForAxis(const tflite::StridedSliceParams&, const tflite::RuntimeShape&, int)	16	static
+strided_slice_logic.h:115:12:int tflite::strided_slice::StopForAxis(const tflite::StridedSliceParams&, const tflite::RuntimeShape&, int, int)	24	static
+tensor_ctypes.h:34:21:tflite::RuntimeShape tflite::GetTensorShape(const TfLiteTensor*)	16	static
+strided_slice.cc:42:3:tflite::ops::micro::strided_slice::StridedSliceContext::StridedSliceContext(TfLiteContext*, TfLiteNode*)	16	static
+strided_slice.cc:64:28:tflite::StridedSliceParams tflite::ops::micro::strided_slice::BuildStridedSliceParams(tflite::ops::micro::strided_slice::StridedSliceContext*)	16	static
+strided_slice.cc:88:14:TfLiteStatus tflite::ops::micro::strided_slice::CheckOutputSize(TfLiteContext*, tflite::ops::micro::strided_slice::StridedSliceContext*)	168	static
+strided_slice.cc:123:14:TfLiteStatus tflite::ops::micro::strided_slice::Prepare(TfLiteContext*, TfLiteNode*)	64	static
+strided_slice.cc:170:21:TfLiteRegistration* tflite::ops::micro::Register_STRIDED_SLICE()	0	static
+strided_slice.h:27:13:void tflite::reference_ops::StridedSlice(const tflite::StridedSliceParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with T = float]	248	static
+strided_slice.h:27:13:void tflite::reference_ops::StridedSlice(const tflite::StridedSliceParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with T = unsigned char]	248	static
+strided_slice.h:27:13:void tflite::reference_ops::StridedSlice(const tflite::StridedSliceParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with T = signed char]	248	static
+strided_slice.cc:133:14:TfLiteStatus tflite::ops::micro::strided_slice::Eval(TfLiteContext*, TfLiteNode*) [with tflite::ops::micro::strided_slice::KernelType kernel_type = tflite::ops::micro::strided_slice::kReference]	184	static
